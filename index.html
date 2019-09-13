@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Encuesta SM | OUTERGATE STUDIO</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <section id="contenedor">
+      <header>
+        <a href="http://outergatestudio.com" target="_blank"><img src="src/OG_Logo.png" id="logo-og"></a>
+        <a href="http://sanmartin.gov.ar" target="_blank"><img src="src/logo-san-martin.png" id="logo-sm" class="logo-sm"></a>
+      </header>
+
+      <article id="inicio">
+        <h1>Encuesta Web SM</h1>
+        <p>¡Gracias por participar de esta encuesta anónima!<br>lorem ipsum dolor sit ameo</p>
+      </article>
+
+      <form>
+        <article class="pregunta">
+          <h2>Ante una consulta de tipo municipal,<br>¿Qué canales utilizás?</h2>
+          <ul>
+            <li>
+              <input type="radio" name="canales" value="web" id="canales-web">
+              <label for="canales-web"></label>
+              <p>Ingresas a la Web del Municipio</p>
+            </li>
+            <li>
+              <input type="radio" name="canales" value="CAV" id="canales-CAV">
+              <label for="canales-CAV"></label>
+              <p>Te acercas a un CAV</p></li>
+            <li>
+              <input type="radio" name="canales" value="palacio" id="canales-palacio">
+              <label for="canales-palacio"></label>
+              <p>Te acercas al Palacio Municipal</p></li>
+          </ul>
+        </article>
+
+        <article class="pregunta">
+          <h2>¿Utilizaste alguna vez el sitio web <br> de la Municipalidad de San Martín?</h2>
+          <ul>
+            <li>
+              <input type="radio" name="utilizaste" value="si" id="utilizaste-si">
+              <label for="utilizaste-si"></label>
+              <p>Si</p>
+            </li>
+            <li>
+              <input type="radio" name="utilizaste" value="no" id="utilizaste-no">
+              <label for="utilizaste-no"></label>
+              <p>No</p>
+            </li>
+          </ul>
+        </article>
+
+        <article class="pregunta">
+          <h2>¿Qué información buscabas?</h2>
+          <ul>
+            <li>
+              <input type="checkbox" name="info" value="tramites" id="info-tramites">
+              <label for="info-tramites"></label>
+              <p>Trámites</p>
+            </li>
+            <li>
+              <input type="checkbox" name="info" value="reclamos" id="info-reclamos">
+              <label for="info-reclamos"></label>
+              <p>Reclamos</p>
+            </li>
+            <li>
+              <input type="checkbox" name="info" value="noticias" id="info-noticias">
+              <label for="info-noticias"></label>
+              <p>Noticias</p>
+            </li>
+            <li>
+              <input type="checkbox" name="info" value="agenda-eventos" id="info-agenda">
+              <label for="info-agenda"></label>
+              <p>Agenda de eventos y actividades</p>
+            </li>
+          </ul>
+        </article>
+
+        <article class="pregunta">
+          <h2>¿El sitio te resultó útil?</h2>
+          <ul>
+            <li>
+              <input type="radio" name="utilidad" value="si" id="utilidad-si">
+              <label for="utilidad-si"></label>
+              <p>Si</p>
+            </li>
+            <li>
+              <input type="radio" name="utilidad" value="no" id="utilidad-no">
+              <label for="utilidad-no"></label>
+              <p>No</p>
+            </li>
+        </article>
+
+        <article class="pregunta">
+          <h2>¿Lo recomendarías?</h2>
+          <ul>
+            <li>
+              <input type="radio" name="recomendacion" value="si" id="recomendacion-si">
+              <label for="recomendacion-si"></label>
+              <p>Si</p>
+            </li>
+            <li>
+              <input type="radio" name="recomendacion" value="no" id="recomendacion-no">
+              <label for="recomendacion-no"></label>
+              <p>No</p>
+            </li>
+        </article>
+
+        <article class="pregunta">
+          <h2>¿Te interesaría participar de consultas <br> en la comunidad acerca del Municipio?</h2>
+          <ul>
+            <li>
+              <input type="radio" name="comunidad" value="si" id="comunidad-si">
+              <label for="comunidad-si"></label>
+              <p>Si</p>
+            </li>
+            <li>
+              <input type="radio" name="comunidad" value="no" id="comunidad-no">
+              <label for="comunidad-no"></label>
+              <p>No</p>
+            </li>
+        </article>
+
+        <article class="pregunta">
+          <h2>¿Preferirías que la web municipal sea <br> un portal de trámites o de noticias?</h2>
+          <ul>
+            <li>
+              <input type="radio" name="portal" value="tramites" id="portal-tramites">
+              <label for="portal-tramites"></label>
+              <p>Trámites</p>
+            </li>
+            <li>
+              <input type="radio" name="portal" value="noticias" id="portal-noticias">
+              <label for="portal-noticias"></label>
+              <p>Noticias</p>
+            </li>
+        </article>
+
+        <article class="pregunta">
+          <h2>En el caso de que hayas realizado trámites <br> 100% a través de la web del Municipio, <br> ¿Lograste realizarlo con éxito?</h2>
+          <ul>
+            <li>
+              <input type="radio" name="tramites-web" value="satisfactorio" id="tramites-satisfactorio">
+              <label for="tramites-satisfactorio"></label>
+              <p>Si</p>
+            </li>
+            <li>
+              <input type="radio" name="tramites-web" value="no-satisfactorio" id="tramites-no-satisfactorio">
+              <label for="tramites-no-satisfactorio"></label>
+              <p>No</p>
+            </li>
+        </article>
+      </form>
+
+      <article id="final">
+        <h2>&iexcl;Gracias por participar!</h2>
+      </article>
+
+      <nav id="controles">
+        <button id="siguiente">COMENZAR</button>
+        <ul>
+          <li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li>
+        </ul>
+      </nav>
+
+      <footer>Diseño y desarrollo por <strong>Outergate Studio</strong></footer>
+    </section>
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
